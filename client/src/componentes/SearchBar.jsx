@@ -23,7 +23,7 @@ function SearchBar() {
       <input
         className="form-control me-2"
         type="search"
-        placeholder="City..."
+        placeholder="City...."
         aria-label="Search"
         value={location ? location : ""}
         onChange={handleChange}
