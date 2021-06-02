@@ -1,0 +1,33 @@
+@media screen and (max-width: 550px) {
+  .nav-container {
+    width: 100%;
+  }
+  .logos {
+    margin: 20px 20px;
+    width: 35px;
+    height: 35px;
+  }
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .search-bar {
+    width: 200px;
+  }
+}
+
+.titulo {
+  color: #4dc591;
+}
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 5px 5px 15px rgb(0 0 0 / 25%);
+  border-bottom: 5px solid #4dc591;
+  align-items: center;
+  margin-bottom: 20px;
+}
